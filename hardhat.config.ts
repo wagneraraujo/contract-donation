@@ -8,6 +8,9 @@ const config: HardhatUserConfig = {
     
     
   },
+  paths:{
+    artifacts:"../amzfront/src/artifacts"
+  },
   networks:{
     hardhat:{
       chainId:1337
